@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.halal.halal_appmwllc.mainfragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_e_CodeFragment"
+            app:destination="@id/e_CodeFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_bagymdatFragment"
+            app:destination="@id/bagymdatFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/catologFragment"
+        android:name="com.halal.halal_appmwllc.mainfragment.CatologFragment"
+        android:label="fragment_catolog"
+        tools:layout="@layout/fragment_catolog" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.halal.halal_appmwllc.mainfragment.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/e_CodeFragment"
+        android:name="com.halal.halal_appmwllc.mainfragment.E_CodeFragment"
+        android:label="fragment_e__code"
+        tools:layout="@layout/fragment_e__code" />
+    <fragment
+        android:id="@+id/asr_Fragment"
+        android:name="com.halal.halal_appmwllc.namaz_fragment.Asr_Fragment"
+        android:label="fragment_asr_"
+        tools:layout="@layout/fragment_asr_" />
+    <fragment
+        android:id="@+id/bagymdatFragment"
+        android:name="com.halal.halal_appmwllc.namaz_fragment.BagymdatFragment"
+        android:label="fragment_bagymdat"
+        tools:layout="@layout/fragment_bagymdat" />
+    <fragment
+        android:id="@+id/beshim_Fragment"
+        android:name="com.halal.halal_appmwllc.namaz_fragment.Beshim_Fragment"
+        android:label="fragment_beshim_"
+        tools:layout="@layout/fragment_beshim_" />
+    <fragment
+        android:id="@+id/kundun_shyguusu_Fragment"
+        android:name="com.halal.halal_appmwllc.namaz_fragment.Kundun_shyguusu_Fragment"
+        android:label="fragment_kundun_shyguusu_"
+        tools:layout="@layout/fragment_kundun_shyguusu_" />
+    <fragment
+        android:id="@+id/kuptan_Fragment"
+        android:name="com.halal.halal_appmwllc.namaz_fragment.Kuptan_Fragment"
+        android:label="fragment_kuptan_"
+        tools:layout="@layout/fragment_kuptan_" />
+    <fragment
+        android:id="@+id/sham_Fragment"
+        android:name="com.halal.halal_appmwllc.namaz_fragment.Sham_Fragment"
+        android:label="fragment_sham_"
+        tools:layout="@layout/fragment_sham_" />
+    <fragment
+        android:id="@+id/tahajjud_Fragment"
+        android:name="com.halal.halal_appmwllc.namaz_fragment.Tahajjud_Fragment"
+        android:label="fragment_tahajjud_"
+        tools:layout="@layout/fragment_tahajjud_" />
+
+</navigation>
