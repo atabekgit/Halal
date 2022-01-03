@@ -30,7 +30,7 @@ class MainFragment : Fragment() {
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        Izbrannoe.setOnClickListener{nextIzbranny(view)}
         val navController = Navigation.findNavController(view)
         namazubakyty.setOnClickListener {
             navController.navigate(R.id.action_mainFragment_to_bagymdatFragment)
@@ -40,7 +40,9 @@ class MainFragment : Fragment() {
 
         }
 
-
-
+    }
+    fun nextIzbranny(view: View){
+        val navController = Navigation.findNavController(view)
+        navController.navigate(R.id.action_mainFragment_to_izbrannyFragment)
     }
 }

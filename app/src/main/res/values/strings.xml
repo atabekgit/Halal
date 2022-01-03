@@ -31,5 +31,6 @@
     <string name="LishnyyKabinet">Личный кабинет</string>
     <string name="Sobytie">Событие</string>
     <string name="settings">Настройки</string>
+    <string name="glavnuy">Избронное</string>
 
 </resources>

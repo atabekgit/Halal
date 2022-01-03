@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_mainFragment_to_bagymdatFragment"
             app:destination="@id/bagymdatFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_izbrannyFragment"
+            app:destination="@id/izbrannyFragment" />
 
 
     </fragment>
@@ -77,6 +80,15 @@
         <action
             android:id="@+id/action_settingsFragment2_to_menuFragment"
             app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/izbrannyFragment"
+        android:name="com.halal.halal_appmwllc.izbranny.IzbrannyFragment"
+        android:label="fragment_izbranny"
+        tools:layout="@layout/fragment_izbranny" >
+        <action
+            android:id="@+id/action_izbrannyFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
     </fragment>
 
 
