@@ -159,7 +159,6 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/Почта_жазуу"
         android:layout_width="41dp"
         android:layout_height="15dp"
         app:layout_constraintStart_toStartOf="@id/LinearLayout_email"
@@ -219,7 +218,6 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/Пол"
         android:layout_width="35dp"
         android:layout_height="20dp"
         android:layout_marginTop="541dp"
@@ -231,7 +229,6 @@
         android:text="Пол"/>
 
     <RadioButton
-        android:id="@+id/Женский_радио_баттон"
         android:layout_width="25dp"
         android:layout_height="20dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -240,7 +237,6 @@
         android:layout_marginLeft="20dp"/>
 
     <TextView
-        android:id="@+id/Женский"
         android:layout_width="82dp"
         android:layout_height="20dp"
         android:layout_marginLeft="73dp"
@@ -253,14 +249,12 @@
     <RadioButton
         android:layout_width="25dp"
         android:layout_height="20dp"
-        android:id="@+id/Мужской_радио_баттон"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="621dp"/>
 
     <TextView
-        android:id="@+id/Мужской"
         android:layout_width="86dp"
         android:layout_height="20dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -280,7 +274,6 @@
         android:layout_marginTop="645dp">
 
         <TextView
-            android:id="@+id/Отмена"
             android:layout_width="73dp"
             android:layout_height="20dp"
             android:text="Отмена"
@@ -303,7 +296,6 @@
         android:layout_marginTop="645dp">
 
         <TextView
-            android:id="@+id/Сохранить"
             android:layout_width="103dp"
             android:layout_height="20dp"
             android:textSize="18dp"

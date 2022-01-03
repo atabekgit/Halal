@@ -19,7 +19,6 @@
     <LinearLayout
         android:layout_width="374dp"
         android:layout_height="40dp"
-        android:id="@+id/Почта_ЛинеарЛайоут"
         android:background="@drawable/shape_abdu_fragment"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +29,6 @@
             android:layout_width="137dp"
             android:layout_height="16dp"
             android:layout_marginLeft="40dp"
-            android:id="@+id/Почта"
             android:text="erfrxcdx@mail.com"
             android:inputType="textEmailAddress"
             android:layout_marginTop="9dp"
@@ -42,7 +40,6 @@
     <LinearLayout
         android:layout_width="374dp"
         android:layout_height="40dp"
-        android:id="@+id/Пароль_ЛинеарЛайоут"
         android:background="@drawable/shape_abdu_fragment"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +47,6 @@
         android:layout_marginTop="440dp">
 
         <TextView
-            android:id="@+id/Пароль"
             android:layout_width="83dp"
             android:layout_height="16dp"
             android:text="***********"
@@ -87,13 +83,11 @@
         android:layout_height="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:id="@+id/Войти_констраинтЛ"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="350dp"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <TextView
-            android:id="@+id/Войти"
             android:layout_width="55dp"
             android:layout_height="21dp"
             android:text="Войти"
@@ -108,7 +102,6 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/Или_жазуу"
         android:layout_width="32dp"
         android:layout_height="21dp"
         android:text="или"
@@ -120,7 +113,6 @@
         android:gravity="center"
         android:layout_marginTop="460dp"/>
     <TextView
-        android:id="@+id/Сызык_просто"
         android:layout_width="100dp"
         android:layout_height="2dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -133,7 +125,6 @@
         android:textColor="@color/white"/>
 
     <TextView
-        android:id="@+id/Сызык_просто_он_жагы"
         android:layout_width="100dp"
         android:layout_height="2dp"
         app:layout_constraintStart_toStartOf="parent"
