@@ -23,51 +23,61 @@
         android:id="@+id/catologFragment"
         android:name="com.halal.halal_appmwllc.mainfragment.CatologFragment"
         android:label="fragment_catolog"
-        tools:layout="@layout/fragment_catolog" />
+        tools:layout="@layout/fragment_catolog" >
+
+    </fragment>
     <fragment
         android:id="@+id/menuFragment"
         android:name="com.halal.halal_appmwllc.mainfragment.MenuFragment"
         android:label="fragment_menu"
-        tools:layout="@layout/fragment_menu" />
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_lishnye_Kabinet_Fragment"
+            app:destination="@id/lishnye_Kabinet_Fragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_settingsFragment2"
+            app:destination="@id/settingsFragment2" />
+    </fragment>
     <fragment
         android:id="@+id/e_CodeFragment"
         android:name="com.halal.halal_appmwllc.mainfragment.E_CodeFragment"
         android:label="fragment_e__code"
         tools:layout="@layout/fragment_e__code" />
-    <fragment
-        android:id="@+id/asr_Fragment"
-        android:name="com.halal.halal_appmwllc.namaz_fragment.Asr_Fragment"
-        android:label="fragment_asr_"
-        tools:layout="@layout/fragment_asr_" />
+
     <fragment
         android:id="@+id/bagymdatFragment"
         android:name="com.halal.halal_appmwllc.namaz_fragment.BagymdatFragment"
         android:label="fragment_bagymdat"
         tools:layout="@layout/fragment_bagymdat" />
     <fragment
-        android:id="@+id/beshim_Fragment"
-        android:name="com.halal.halal_appmwllc.namaz_fragment.Beshim_Fragment"
-        android:label="fragment_beshim_"
-        tools:layout="@layout/fragment_beshim_" />
+        android:id="@+id/voyti_email_Fragment"
+        android:name="com.halal.halal_appmwllc.Lishny.Voyti_email_Fragment"
+        android:label="fragment_voyti_email_"
+        tools:layout="@layout/fragment_voyti_email_" />
     <fragment
-        android:id="@+id/kundun_shyguusu_Fragment"
-        android:name="com.halal.halal_appmwllc.namaz_fragment.Kundun_shyguusu_Fragment"
-        android:label="fragment_kundun_shyguusu_"
-        tools:layout="@layout/fragment_kundun_shyguusu_" />
+        android:id="@+id/voyti_Fragment"
+        android:name="com.halal.halal_appmwllc.Lishny.Voyti_Fragment"
+        android:label="fragment_voyti_"
+        tools:layout="@layout/fragment_voyti_" />
     <fragment
-        android:id="@+id/kuptan_Fragment"
-        android:name="com.halal.halal_appmwllc.namaz_fragment.Kuptan_Fragment"
-        android:label="fragment_kuptan_"
-        tools:layout="@layout/fragment_kuptan_" />
+        android:id="@+id/lishnye_Kabinet_Fragment"
+        android:name="com.halal.halal_appmwllc.Lishny.Lishnye_Kabinet_Fragment"
+        android:label="fragment_lishnye__kabinet_"
+        tools:layout="@layout/fragment_lishnye__kabinet_" >
+
+        <action
+            android:id="@+id/action_lishnye_Kabinet_Fragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
     <fragment
-        android:id="@+id/sham_Fragment"
-        android:name="com.halal.halal_appmwllc.namaz_fragment.Sham_Fragment"
-        android:label="fragment_sham_"
-        tools:layout="@layout/fragment_sham_" />
-    <fragment
-        android:id="@+id/tahajjud_Fragment"
-        android:name="com.halal.halal_appmwllc.namaz_fragment.Tahajjud_Fragment"
-        android:label="fragment_tahajjud_"
-        tools:layout="@layout/fragment_tahajjud_" />
+        android:id="@+id/settingsFragment2"
+        android:name="com.halal.halal_appmwllc.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment2_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+
 
 </navigation>

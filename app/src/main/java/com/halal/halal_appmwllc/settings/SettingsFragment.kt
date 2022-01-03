@@ -1,4 +1,4 @@
-package com.halal.halal_appmwllc.mainfragment
+package com.halal.halal_appmwllc.settings
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,9 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 import com.halal.halal_appmwllc.R
+import kotlinx.android.synthetic.main.fragment_lishnye__kabinet_.*
 import kotlinx.android.synthetic.main.fragment_menu.*
+import kotlinx.android.synthetic.main.fragment_settings.*
 
-class MenuFragment : Fragment() {
+
+class SettingsFragment : Fragment() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,20 +24,15 @@ class MenuFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_menu, container, false)
+
+        return inflater.inflate(R.layout.fragment_settings, container, false)
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        lichnuyKabinet.setOnClickListener{nextKabinet(view)}
-        btn_settings.setOnClickListener{nextSettings(view)}
+        btn_back_tosettings.setOnClickListener {backMenu(view)}
     }
-    fun nextKabinet(view: View){
+    fun backMenu(view: View){
         val navController = Navigation.findNavController(view)
-        navController.navigate(R.id.action_menuFragment_to_lishnye_Kabinet_Fragment)
-    }
-    fun nextSettings(view: View){
-        val navController = Navigation.findNavController(view)
-        navController.navigate(R.id.action_menuFragment_to_settingsFragment2)
+        navController.navigate(R.id.action_settingsFragment2_to_menuFragment)
     }
 }
