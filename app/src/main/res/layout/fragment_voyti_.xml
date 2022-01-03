@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A8791"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Lishny.Voyti_Fragment">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/halal_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="120dp"/>
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="40dp"
+        android:id="@+id/Почта_ЛинеарЛайоут"
+        android:background="@drawable/shape_abdu_fragment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="375dp">
+
+        <TextView
+            android:layout_width="137dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/Почта"
+            android:text="erfrxcdx@mail.com"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="9dp"
+            android:textStyle="normal"
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="40dp"
+        android:id="@+id/Пароль_ЛинеарЛайоут"
+        android:background="@drawable/shape_abdu_fragment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="440dp">
+
+        <TextView
+            android:id="@+id/Пароль"
+            android:layout_width="83dp"
+            android:layout_height="16dp"
+            android:text="***********"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="41dp"
+        android:layout_height="15dp"
+        android:text="Почта"
+        android:textSize="13dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="357dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="51dp"
+        android:layout_height="15dp"
+        android:textColor="@color/white"
+        android:text="Пароль"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="425dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="normal"
+        android:textSize="13dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/Войти_констраинтЛ"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="350dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/Войти"
+            android:layout_width="55dp"
+            android:layout_height="21dp"
+            android:text="Войти"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="@color/white"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/Или_жазуу"
+        android:layout_width="32dp"
+        android:layout_height="21dp"
+        android:text="или"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center"
+        android:layout_marginTop="460dp"/>
+    <TextView
+        android:id="@+id/Сызык_просто"
+        android:layout_width="100dp"
+        android:layout_height="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="70dp"
+        android:text="________"
+        android:background="@color/white"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/Сызык_просто_он_жагы"
+        android:layout_width="100dp"
+        android:layout_height="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="247dp"
+        android:text="________"
+        android:background="@color/white"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="156dp"
+        android:layout_height="16dp"
+        android:text="Войти через Facebook"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="530dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:layout_width="156dp"
+        android:layout_height="16dp"
+        android:text="Войти через Google"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="600dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:layout_width="114dp"
+        android:layout_height="16dp"
+        android:text="Забыли пароль"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="650dp"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:gravity="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
