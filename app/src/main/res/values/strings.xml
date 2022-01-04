@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Halal_AppMWLLC</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="text_next">Далее</string>
     <string name="text_language">Язык</string>
@@ -32,5 +31,7 @@
     <string name="Sobytie">Событие</string>
     <string name="settings">Настройки</string>
     <string name="glavnuy">Избронное</string>
+    <string name="questions_i_answers">Вопросы и ответы</string>
+    <string name="ob_organe_certification">Об органе по сертификации халяль</string>
 
 </resources>

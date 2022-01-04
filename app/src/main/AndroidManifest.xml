@@ -9,9 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Halal_AppMWLLC">
-        <activity
-            android:name=".namaz_time_activity.Namaz_Time_Activity"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity.MainActivity"
             android:exported="false" />

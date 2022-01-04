@@ -28,6 +28,7 @@ class MenuFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         lichnuyKabinet.setOnClickListener{nextKabinet(view)}
         btn_settings.setOnClickListener{nextSettings(view)}
+        voprosy_i_otvety.setOnClickListener{nextQuestions(view)}
     }
     fun nextKabinet(view: View){
         val navController = Navigation.findNavController(view)
@@ -36,5 +37,9 @@ class MenuFragment : Fragment() {
     fun nextSettings(view: View){
         val navController = Navigation.findNavController(view)
         navController.navigate(R.id.action_menuFragment_to_settingsFragment2)
+    }
+    fun nextQuestions(view: View) {
+        val navController = Navigation.findNavController(view)
+        navController.navigate(R.id.action_menuFragment_to_questions_i_answersFragment)
     }
 }

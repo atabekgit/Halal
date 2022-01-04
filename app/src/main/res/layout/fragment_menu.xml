@@ -186,6 +186,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="347dp"
         android:layout_height="40dp"
+        android:id="@+id/voprosy_i_otvety"
         android:background="@drawable/shape_menu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -194,7 +195,7 @@
         >
 
         <ImageView
-            android:id="@+id/voprosy_i_otvety"
+            android:id="@+id/voprosy"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:src="@drawable/voprosy_i_otvety"
@@ -249,7 +250,7 @@
             android:layout_marginLeft="22dp"/>
 
         <TextView
-            android:id="@+id/ob_organe_certification"
+            android:id="@+id/sertificat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Об органе по сертификации халяль"

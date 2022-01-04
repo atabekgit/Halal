@@ -1,7 +1,5 @@
 package com.halal.halal_appmwllc.mainfragment
 
-import android.app.Activity
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -30,6 +28,7 @@ class MainFragment : Fragment() {
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        zayavka.setOnClickListener{nextZayavki(view)}
         Izbrannoe.setOnClickListener{nextIzbranny(view)}
         val navController = Navigation.findNavController(view)
         namazubakyty.setOnClickListener {
@@ -44,5 +43,9 @@ class MainFragment : Fragment() {
     fun nextIzbranny(view: View){
         val navController = Navigation.findNavController(view)
         navController.navigate(R.id.action_mainFragment_to_izbrannyFragment)
+    }
+    fun nextZayavki(view: View){
+        val navController = Navigation.findNavController(view)
+        navController.navigate(R.id.action_mainFragment_to_ob_organe_po_sertification_Fragment)
     }
 }

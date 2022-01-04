@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_mainFragment_to_izbrannyFragment"
             app:destination="@id/izbrannyFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_ob_organe_po_sertification_Fragment"
+            app:destination="@id/ob_organe_po_sertification_Fragment" />
 
 
     </fragment>
@@ -40,6 +43,9 @@
         <action
             android:id="@+id/action_menuFragment_to_settingsFragment2"
             app:destination="@id/settingsFragment2" />
+        <action
+            android:id="@+id/action_menuFragment_to_questions_i_answersFragment"
+            app:destination="@id/questions_i_answersFragment" />
     </fragment>
     <fragment
         android:id="@+id/e_CodeFragment"
@@ -88,6 +94,24 @@
         tools:layout="@layout/fragment_izbranny" >
         <action
             android:id="@+id/action_izbrannyFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questions_i_answersFragment"
+        android:name="com.halal.halal_appmwllc.questions_i_answers.Questions_i_answersFragment"
+        android:label="fragment_questions_i_answers"
+        tools:layout="@layout/fragment_questions_i_answers" >
+        <action
+            android:id="@+id/action_questions_i_answersFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ob_organe_po_sertification_Fragment"
+        android:name="com.halal.halal_appmwllc.ob_organe_po_serticition_halal.Ob_organe_po_sertification_Fragment"
+        android:label="fragment_ob_organe_po_sertification_"
+        tools:layout="@layout/fragment_ob_organe_po_sertification_" >
+        <action
+            android:id="@+id/action_ob_organe_po_sertification_Fragment_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
 
