@@ -7,6 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 import com.halal.halal_appmwllc.R
+import kotlinx.android.synthetic.main.fragment_menu.*
+import kotlinx.android.synthetic.main.fragment_sertification_halal_.*
 import kotlinx.android.synthetic.main.fragment_sobytie_.*
 
 class Sertification_halal_Fragment : Fragment() {
@@ -26,7 +28,7 @@ class Sertification_halal_Fragment : Fragment() {
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        btn_ob_sobytye.setOnClickListener {nextMenutoSertification(view)}
+        btn_sertificat_halal.setOnClickListener {nextMenutoSertification(view)}
     }
     fun nextMenutoSertification(view: View) {
         val navController = Navigation.findNavController(view)

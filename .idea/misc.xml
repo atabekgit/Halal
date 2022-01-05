@@ -4,11 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/drawable/ic_logo.xml" value="0.26205128205128203" />
+        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/drawable/input_shape.xml" value="0.2947916666666667" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/drawable/namazydyky_shape.xml" value="0.21265822784810126" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/drawable/scanner.xml" value="0.16578947368421051" />
+        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/drawable/shape_btn_soh.xml" value="0.18618421052631579" />
+        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/drawable/shape_button.xml" value="0.2947916666666667" />
+        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/drawable/shape_gradient.xml" value="0.2947916666666667" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/drawable/shape_halal.xml" value="0.16578947368421051" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/drawable/shape_list_button.xml" value="0.16578947368421051" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/drawable/shape_menu.xml" value="0.23333333333333334" />
+        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/drawable/shape_ne_udaetsya_voyti.xml" value="0.2947916666666667" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/activity_choose.xml" value="0.1793478260869565" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/activity_namaz_time.xml" value="0.1" />

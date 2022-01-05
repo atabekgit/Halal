@@ -38,5 +38,16 @@
     <string name="indstrua">Халал индустрия</string>
     <string name="lissensia_text">ЛИЦЕНЗИИ</string>
     <string name="sertifcat_halal_menu">Об органе по сертификации халяль</string>
+    <string name="lishnyi_kabinet">Личный кабинет</string>
+    <string name="imia">Имя</string>
+    <string name="phone_user">Телефон</string>
+    <string name="pochta">Почта</string>
+    <string name="password_user">Пароль</string>
+    <string name="povtor_pasword_user">Повторить пароль</string>
+    <string name="pol_user">Пол</string>
+    <string name="jenskiy_user_radio">Женский</string>
+    <string name="mujskoi_user">Мужской</string>
+    <string name="otmena_btn">Отмена</string>
+    <string name="sohranit_btn">Сохранить</string>
 
 </resources>
