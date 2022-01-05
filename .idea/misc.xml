@@ -21,11 +21,12 @@
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_asr_.xml" value="0.17255434782608695" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_bagymdat.xml" value="0.136" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_beshim_.xml" value="0.12363387978142076" />
-        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_catolog.xml" value="0.1793478260869565" />
+        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_catolog.xml" value="0.264" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_choose.xml" value="0.1793478260869565" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_country.xml" value="0.1793478260869565" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_e__code.xml" value="0.1793478260869565" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_izbranny.xml" value="0.17074275362318841" />
+        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_kundun_shyguusu_.xml" value="0.1555921052631579" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_kuptan_.xml" value="0.12363387978142076" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_language.xml" value="0.1793478260869565" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_lishnye__kabinet_.xml" value="0.2" />
@@ -37,10 +38,12 @@
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_sertification_halal_.xml" value="0.17598684210526316" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_settigs.xml" value="0.17074275362318841" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_settings.xml" value="0.264" />
+        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_sham_.xml" value="0.1555921052631579" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_sobytie_.xml" value="0.17598684210526316" />
+        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_tahajjud_.xml" value="0.1555921052631579" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_toolbar.xml" value="0.17255434782608695" />
-        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_voyti_.xml" value="0.1" />
-        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_voyti_email_.xml" value="0.264" />
+        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_voyti_.xml" value="0.16" />
+        <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_voyti_email_.xml" value="0.136" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/fragment_zayavka.xml" value="0.264" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/layout/list_country.xml" value="0.1793478260869565" />
         <entry key="..\:/Halal_AppMWLLC/app/src/main/res/menu/menu_halal.xml" value="0.25" />

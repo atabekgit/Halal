@@ -1,77 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#0A8791"
     android:layout_height="match_parent"
+    android:background="#0A8791"
     tools:context=".Lishny.Voyti_email_Fragment">
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/email_key"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="184dp"/>
-    
-    <TextView
-        android:layout_width="136dp"
-        android:layout_height="16dp"
-        android:text="Не удается войти"
-        android:textColor="@color/white"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="304dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="15dp"
-        android:textStyle="normal"/>
-    
-    <ImageView
-        android:layout_width="266dp"
-        android:layout_height="64dp"
-        android:src="@drawable/text"
-        android:layout_marginTop="330dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
 
     <LinearLayout
-        android:layout_width="374dp"
-        android:layout_height="40dp"
-        android:background="@color/white"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="469dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:layout_width="273dp"
-            android:layout_height="17dp"
-            android:text="Эл. адрес или телефон пользователя"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="40dp"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="374dp"
-        android:layout_height="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="529dp"
-        android:background="@drawable/shape_ne_udaetsya_voyti"
-        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:fontFamily="@font/ttv"
+            android:src="@drawable/email_key" />
 
         <TextView
-            android:layout_width="215dp"
-            android:layout_height="21dp"
-            android:layout_gravity="center"
-            android:text="Получить ссылку для входа"
+            android:layout_width="136dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ttv"
+            android:text="Не удается войти"
             android:textColor="@color/white"
-            android:layout_marginLeft="81dp"/>
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/ttv"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:text="@string/text_adres"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="165dp"
+            android:fontFamily="@font/ttv"
+            android:text="@string/pochta"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <EditText
+            android:layout_width="374dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_menu"
+            android:fontFamily="@font/ttv"
+            android:hint="Эл. адрес или телефон пользователя"
+            android:paddingStart="20dp"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:layout_width="374dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/ttv"
+            android:text="@string/sslka"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@drawable/shape_ne_udaetsya_voyti" />
+
 
     </LinearLayout>
 

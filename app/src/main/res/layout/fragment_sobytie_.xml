@@ -30,6 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/sobytye"
+            android:fontFamily="@font/ttv"
+            android:textStyle="normal"
             android:textColor="@color/white"
             android:textSize="19dp"
             tools:ignore="HardcodedText" />

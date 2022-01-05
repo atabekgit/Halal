@@ -29,9 +29,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:fontFamily="@font/ttv"
             android:text="@string/o_app"
             android:textColor="@color/white"
             android:textSize="16dp"
+            android:textStyle="normal"
             tools:ignore="HardcodedText" />
 
     </androidx.appcompat.widget.Toolbar>
@@ -50,18 +52,22 @@
             android:id="@+id/Halal_industria"
             android:layout_width="193dp"
             android:layout_height="28dp"
+            android:fontFamily="@font/ttv"
             android:text="@string/indstrua"
             android:textColor="@color/white"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="normal" />
 
         <TextView
             android:id="@+id/Versia"
             android:layout_width="119dp"
             android:layout_height="16dp"
             android:layout_marginTop="5dp"
+            android:fontFamily="@font/ttv"
             android:text="Варсия 2.21.17.24"
             android:textColor="@color/white"
-            android:textSize="14dp" />
+            android:textSize="14dp"
+            android:textStyle="normal" />
 
         <ImageView
             android:id="@+id/halaj_icon_o_priloj"
@@ -84,6 +90,7 @@
             android:layout_width="98dp"
             android:layout_height="21dp"
             android:layout_marginTop="20dp"
+            android:fontFamily="@font/ttv"
             android:text="@string/lissensia_text"
             android:textColor="#00F0FF"
             android:textStyle="normal"

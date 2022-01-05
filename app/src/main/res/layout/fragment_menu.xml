@@ -63,6 +63,7 @@
         android:layout_height="26dp"
         android:text="@string/AkylbekuKubanysh"
         android:layout_marginTop="115dp"
+
         android:textSize="20dp"
         android:layout_alignParentLeft="true"
         android:gravity="top"
@@ -104,6 +105,7 @@
             android:layout_height="wrap_content"
             android:text="@string/LishnyyKabinet"
             android:textSize="15dp"
+            android:fontFamily="@font/ttv"
             android:textColor="#0A8791"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -166,6 +168,7 @@
             android:layout_height="wrap_content"
             android:text="@string/Sobytie"
             android:textSize="15dp"
+
             android:textColor="#0A8791"
             android:fontFamily="@font/ttv"
             android:textStyle="normal"

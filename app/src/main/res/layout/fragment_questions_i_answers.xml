@@ -31,6 +31,8 @@
             android:layout_gravity="center"
             android:text="@string/questions_i_answers"
             android:textColor="@color/white"
+            android:fontFamily="@font/ttv"
+            android:textStyle="normal"
             android:textSize="20sp"
             tools:ignore="HardcodedText" />
 

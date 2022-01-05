@@ -5,7 +5,6 @@
     <string name="text_language">Язык</string>
     <string name="text_country">Страна</string>
     <string name="title_activity_home">HomeActivity</string>
-    <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
@@ -49,5 +48,15 @@
     <string name="mujskoi_user">Мужской</string>
     <string name="otmena_btn">Отмена</string>
     <string name="sohranit_btn">Сохранить</string>
-
+    <string name="catolog_main">Каталог</string>
+    <string name="ecode">E коды</string>
+    <string name="main_text">Главный</string>
+<string name="text_adres">Введите свой электронный адрес
+ или номер телефона, и мы отправим
+вам ссылку для восстановления
+доступа к аккаунту.</string>
+    <string name="sslka">Получить ссылку для входа</string>
+    <string name="voiti_user">Войти</string>
+    <string name="and_user">или</string>
+    <string name="zabyla_parol">Забыли пароль?</string>
 </resources>

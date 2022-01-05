@@ -30,6 +30,8 @@
             android:layout_gravity="center"
             android:text="@string/sertifcat_halal_menu"
             android:textColor="@color/white"
+            android:fontFamily="@font/ttv"
+            android:textStyle="normal"
             android:textSize="16dp"
             tools:ignore="HardcodedText" />
 

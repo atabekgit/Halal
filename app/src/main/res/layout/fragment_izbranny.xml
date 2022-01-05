@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".izbranny.IzbrannyFragment">
 
     <androidx.appcompat.widget.Toolbar
@@ -24,19 +24,22 @@
 
         <ImageView
             android:id="@+id/btn_back_izbranny"
-            android:padding="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="10dp"
             android:src="@drawable/nazad" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:fontFamily="@font/ttv"
             android:text="@string/glavnuy"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textStyle="normal" />
     </androidx.appcompat.widget.Toolbar>
+
     <LinearLayout
         android:id="@+id/line_btn"
         android:layout_width="wrap_content"
@@ -75,8 +78,10 @@
                 android:layout_marginEnd="70dp"
                 android:layout_marginBottom="8dp"
                 android:layout_toEndOf="@+id/calender_hijriy"
+                android:fontFamily="@font/ttv"
                 android:text="@string/hijriy"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textStyle="normal" />
 
             <TextView
                 android:id="@+id/saat"
@@ -88,9 +93,11 @@
                 android:layout_marginEnd="2dp"
                 android:layout_marginBottom="8dp"
                 android:layout_toEndOf="@+id/calender_hijriy"
+                android:fontFamily="@font/ttv"
                 android:text="@string/data"
                 android:textColor="#FFFFFF"
-                android:textSize="11dp" />
+                android:textSize="11dp"
+                android:textStyle="normal" />
         </RelativeLayout>
 
 
@@ -124,8 +131,10 @@
                 android:layout_marginEnd="69dp"
                 android:layout_marginBottom="4dp"
                 android:layout_toEndOf="@+id/img_clock"
+                android:fontFamily="@font/ttv"
                 android:text="@string/beshim"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textStyle="normal" />
 
             <TextView
                 android:id="@+id/data"
@@ -137,21 +146,26 @@
                 android:layout_marginEnd="2dp"
                 android:layout_marginBottom="8dp"
                 android:layout_toEndOf="@+id/img_clock"
+                android:fontFamily="@font/ttv"
                 android:text="@string/ocklock"
                 android:textColor="#FFFFFF"
-                android:textSize="11dp" />
+                android:textSize="11dp"
+                android:textStyle="normal" />
         </RelativeLayout>
 
 
     </LinearLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
         android:layout_marginEnd="238dp"
         android:layout_marginBottom="5dp"
+        android:fontFamily="@font/ttv"
         android:text="@string/search"
         android:textSize="14dp"
+        android:textStyle="normal"
         app:layout_constraintBottom_toTopOf="@+id/ed_Iskat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -166,11 +180,13 @@
         android:drawableStart="@drawable/naiti_icon"
         android:drawablePadding="10dp"
         android:elevation="5dp"
+        android:fontFamily="@font/ttv"
         android:hint="Поиск"
         android:paddingStart="10sp"
         android:soundEffectsEnabled="true"
         android:textIsSelectable="false"
         android:textSize="20dp"
+        android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/line_btn"

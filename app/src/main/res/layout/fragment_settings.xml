@@ -35,6 +35,8 @@
             android:layout_gravity="center"
             android:text="@string/settings"
             android:textColor="@color/white"
+            android:fontFamily="@font/ttv"
+            android:textStyle="normal"
             android:textSize="20sp"
             tools:ignore="HardcodedText" />
 
