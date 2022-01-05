@@ -123,6 +123,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="347dp"
         android:layout_height="40dp"
+        android:id="@+id/btn_sobytie"
         android:background="@drawable/shape_menu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -233,6 +234,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="347dp"
         android:layout_height="40dp"
+        android:id="@+id/btn_sertification_ob"
         android:background="@drawable/shape_menu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -250,7 +252,6 @@
             android:layout_marginLeft="22dp"/>
 
         <TextView
-            android:id="@+id/sertificat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Об органе по сертификации халяль"
@@ -278,6 +279,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="347dp"
         android:layout_height="40dp"
+        android:id="@+id/btn_app_O"
         android:background="@drawable/shape_menu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

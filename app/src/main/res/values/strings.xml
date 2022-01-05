@@ -33,5 +33,10 @@
     <string name="glavnuy">Избронное</string>
     <string name="questions_i_answers">Вопросы и ответы</string>
     <string name="ob_organe_certification">Об органе по сертификации халяль</string>
+    <string name="sobytye">Событие</string>
+    <string name="o_app">О приложении</string>
+    <string name="indstrua">Халал индустрия</string>
+    <string name="lissensia_text">ЛИЦЕНЗИИ</string>
+    <string name="sertifcat_halal_menu">Об органе по сертификации халяль</string>
 
 </resources>

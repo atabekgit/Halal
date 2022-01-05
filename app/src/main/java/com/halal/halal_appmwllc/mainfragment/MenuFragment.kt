@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.Navigation
 import com.halal.halal_appmwllc.R
 import kotlinx.android.synthetic.main.fragment_menu.*
+import kotlinx.android.synthetic.main.fragment_o_prilojenie_.*
 
 class MenuFragment : Fragment() {
 
@@ -29,6 +30,10 @@ class MenuFragment : Fragment() {
         lichnuyKabinet.setOnClickListener{nextKabinet(view)}
         btn_settings.setOnClickListener{nextSettings(view)}
         voprosy_i_otvety.setOnClickListener{nextQuestions(view)}
+        btn_sobytie.setOnClickListener{nextSobytye(view)}
+        btn_app_O.setOnClickListener{nextApp(view)}
+        btn_sertification_ob.setOnClickListener{nextSertification(view)}
+
     }
     fun nextKabinet(view: View){
         val navController = Navigation.findNavController(view)
@@ -41,5 +46,17 @@ class MenuFragment : Fragment() {
     fun nextQuestions(view: View) {
         val navController = Navigation.findNavController(view)
         navController.navigate(R.id.action_menuFragment_to_questions_i_answersFragment)
+    }
+    fun nextSobytye(view: View) {
+        val navController = Navigation.findNavController(view)
+        navController.navigate(R.id.action_menuFragment_to_sobytie_Fragment)
+    }
+    fun nextApp(view: View) {
+        val navController = Navigation.findNavController(view)
+        navController.navigate(R.id.action_menuFragment_to_o_prilojenie_Fragment)
+    }
+    fun nextSertification(view: View) {
+        val navController = Navigation.findNavController(view)
+        navController.navigate(R.id.action_menuFragment_to_sertification_halal_Fragment)
     }
 }

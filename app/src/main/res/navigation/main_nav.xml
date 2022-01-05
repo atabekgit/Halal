@@ -46,6 +46,15 @@
         <action
             android:id="@+id/action_menuFragment_to_questions_i_answersFragment"
             app:destination="@id/questions_i_answersFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_sobytie_Fragment"
+            app:destination="@id/sobytie_Fragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_o_prilojenie_Fragment"
+            app:destination="@id/o_prilojenie_Fragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_sertification_halal_Fragment"
+            app:destination="@id/sertification_halal_Fragment" />
     </fragment>
     <fragment
         android:id="@+id/e_CodeFragment"
@@ -113,6 +122,33 @@
         <action
             android:id="@+id/action_ob_organe_po_sertification_Fragment_to_mainFragment"
             app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sobytie_Fragment"
+        android:name="com.halal.halal_appmwllc.sobytie.Sobytie_Fragment"
+        android:label="fragment_sobytie_"
+        tools:layout="@layout/fragment_sobytie_" >
+        <action
+            android:id="@+id/action_sobytie_Fragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/o_prilojenie_Fragment"
+        android:name="com.halal.halal_appmwllc.o_prilojenie.O_prilojenie_Fragment"
+        android:label="fragment_o_prilojenie_"
+        tools:layout="@layout/fragment_o_prilojenie_" >
+        <action
+            android:id="@+id/action_o_prilojenie_Fragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sertification_halal_Fragment"
+        android:name="com.halal.halal_appmwllc.serticication_halal.Sertification_halal_Fragment"
+        android:label="fragment_sertification_halal_"
+        tools:layout="@layout/fragment_sertification_halal_" >
+        <action
+            android:id="@+id/action_sertification_halal_Fragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
     </fragment>
 
 
