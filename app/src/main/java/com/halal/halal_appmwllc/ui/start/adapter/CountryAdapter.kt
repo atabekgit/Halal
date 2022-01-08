@@ -6,25 +6,21 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
 import android.widget.TextView
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.halal.halal_appmwllc.R
 import com.halal.halal_appmwllc.model.Country
+import kotlinx.coroutines.handleCoroutineException
 
 class CountryAdapter (requireContext: Context) :
     RecyclerView.Adapter<CountryAdapter.CountryViewHolder>() {
     private var listOfCountry: List<Country> = emptyList()
-    var count: Int = 0
-    interface onItemClickListener {
-        fun onItemClick(position: Int)
-    }
+  private  var lastCheckedPosition: Int = -1
+     private var isNewRadioButton:Boolean = false
 
     fun getListOgCountry(position: Int):Country{
         return listOfCountry[position]
     }
-
-    /*  fun setListener(listener: onItemClickListener) {
-          this.listener = listener
-      }*/
 
     fun setListOfCountry(listOfCountry: List<Country>) {
         this.listOfCountry = listOfCountry
@@ -35,7 +31,7 @@ class CountryAdapter (requireContext: Context) :
         RecyclerView.ViewHolder(itemView) {
         val nameOfCountry: TextView = itemView.findViewById(R.id.text_country)
         val checkBoxCountry: RadioButton = itemView.findViewById(R.id.checkbox_country)
-
+      val layoutCountry:ConstraintLayout = itemView.findViewById(R.id.layout_country)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CountryViewHolder {
@@ -47,28 +43,27 @@ class CountryAdapter (requireContext: Context) :
         val country = listOfCountry[position]
         holder.nameOfCountry.text = country.nameOfCountry
 
-
-        holder.checkBoxCountry.isChecked.and(false)
-/*holder.itemView.setOnClickListener {
-
-    count +=1
-        Handler().postDelayed({
-            val intent = Intent(context, ChooseActivity::class.java)
-            intent.putExtra("nameOfCountry",country.nameOfCountry)
-            context.startActivity(intent)
-        }, 700)
-    }
-
-        if (count%2==0){
-            holder.checkBoxCountry.setBackgroundResource(R.drawable.ic_ellipse)
-        count = 0
-        }*/
+        if (isNewRadioButton){
+            holder.checkBoxCountry.isChecked = country.isSelected
+        }else{
+            if (holder.adapterPosition == 0){
+                holder.checkBoxCountry.isChecked = true
+                lastCheckedPosition =0
+            }
+        }
+        holder.checkBoxCountry.setOnClickListener {
+handleRadioButtonChecks(holder.adapterPosition)
+        }
 
     }
-
-
-
     override fun getItemCount(): Int {
         return listOfCountry.size
+    }
+    private fun handleRadioButtonChecks(position: Int){
+isNewRadioButton = true
+        listOfCountry[lastCheckedPosition].isSelected = false
+        listOfCountry[position].isSelected =true
+        lastCheckedPosition = position
+        notifyDataSetChanged()
     }
 }

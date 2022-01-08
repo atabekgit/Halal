@@ -43,6 +43,8 @@ class CountryFragment : Fragment() {
         }
         return binding.root
     }
-
+    interface Communicator{
+        fun passDataCom(data: String)
+    }
 
 }
