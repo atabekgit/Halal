@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/whitew"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".mainfragment.MenuFragment">
+    tools:context=".ui.home.MenuFragment">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/main_toolnar"

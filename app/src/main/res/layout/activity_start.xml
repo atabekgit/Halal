@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0A8791"
-    tools:context=".startActivity.StartActivity">
+    tools:context=".ui.startActivity.StartActivity">
 
     <ImageView
         android:layout_width="wrap_content"
