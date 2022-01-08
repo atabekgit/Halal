@@ -7,24 +7,29 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.RadioButton
 import android.widget.TextView
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.halal.halal_appmwllc.R
 import com.halal.halal_appmwllc.model.Language
 import com.halal.halal_appmwllc.ui.startActivity.ChooseActivity
 
-class LanguageAdapter (val context: Context)
-    : RecyclerView.Adapter<LanguageAdapter.LanguageViewHolder>()  {
+class LanguageAdapter( context: Context) :
+    RecyclerView.Adapter<LanguageAdapter.LanguageViewHolder>() {
     private var listOfLanguage: List<Language> = emptyList()
-    private var count = 0
+    private var lastCheckedPosition = -1
+    private var isNewRadioButton: Boolean = false
 
     fun setListOfLanguage(listOfLanguage: List<Language>) {
         this.listOfLanguage = listOfLanguage
         notifyDataSetChanged()
     }
+
     class LanguageViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val nameOfLanguage: TextView = itemView.findViewById(R.id.text_language)
-        val checkBoxOfLanguage: ImageView = itemView.findViewById(R.id.checkbox_language)
+        val checkBoxOfLanguage: RadioButton = itemView.findViewById(R.id.checkbox_language)
+      //  val layoutLang: ConstraintLayout = itemView.findViewById(R.id.layoutLanguage)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LanguageViewHolder {
@@ -36,24 +41,30 @@ class LanguageAdapter (val context: Context)
     override fun onBindViewHolder(holder: LanguageViewHolder, position: Int) {
         val language = listOfLanguage[position]
         holder.nameOfLanguage.text = language.nameOfLanguage
-        holder.itemView.setOnClickListener {
-            count += 1
-            holder.checkBoxOfLanguage.setBackgroundResource(R.drawable.check)
-            Handler().postDelayed({
-                val intent = Intent(context, ChooseActivity::class.java)
-                intent.putExtra("nameOfLanguage", language.nameOfLanguage)
-                context.startActivity(intent)
 
-            }, 700)
+        if (isNewRadioButton){
+            holder.checkBoxOfLanguage.isChecked = language.isSelected
+        }else{
+            if (holder.adapterPosition == 0){
+                holder.checkBoxOfLanguage.isChecked = true
+                lastCheckedPosition =0
+            }
         }
 
-        if (count % 2 == 0) {
-            holder.checkBoxOfLanguage.setBackgroundResource(R.drawable.ic_ellipse)
-            count = 0
-        }
+         holder.checkBoxOfLanguage.setOnClickListener{
+             handleRadioButtonChecks(holder.adapterPosition)
+         }
     }
 
     override fun getItemCount(): Int {
         return listOfLanguage.size
+    }
+
+    private fun handleRadioButtonChecks(position: Int) {
+        isNewRadioButton = true
+        listOfLanguage[lastCheckedPosition].isSelected = false
+        listOfLanguage[position].isSelected = true
+        lastCheckedPosition = position
+        notifyDataSetChanged()
     }
 }
