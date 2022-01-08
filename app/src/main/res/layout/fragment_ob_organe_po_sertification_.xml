@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ob_organe_po_serticition_halal.Ob_organe_po_sertification_Fragment">
+    tools:context=".ui.home.Ob_organe_po_sertification_Fragment">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/main_toolnar"
         android:layout_width="match_parent"

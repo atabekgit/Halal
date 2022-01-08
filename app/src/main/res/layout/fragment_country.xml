@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".start_fragment.CountryFragment">
+    tools:context=".ui.start.CountryFragment">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/country_toolbar"
@@ -16,6 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
+            android:padding="@dimen/padd_back"
             android:id="@+id/btnBackFromCountry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
