@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/halal"
     tools:context=".Lishny.Lishnye_Kabinet_Fragment">
-
+//atabek
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/main_toolnar"
         android:layout_width="match_parent"

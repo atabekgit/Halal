@@ -59,4 +59,7 @@
     <string name="voiti_user">Войти</string>
     <string name="and_user">или</string>
     <string name="zabyla_parol">Забыли пароль?</string>
+    <string name="strana_text">Выберите страна</string>
+    <string name="lang_text">Выберите язык</string>
+    <string name="theme_setting">Тема</string>
 </resources>
