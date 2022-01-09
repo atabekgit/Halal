@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.halal.halal_appmwllc.mainfragment.MainFragment"
+        android:name="com.halal.halal_appmwllc.ui.home.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -27,14 +27,14 @@
     </fragment>
     <fragment
         android:id="@+id/catologFragment"
-        android:name="com.halal.halal_appmwllc.mainfragment.CatologFragment"
+        android:name="com.halal.halal_appmwllc.ui.home.CatologFragment"
         android:label="fragment_catolog"
         tools:layout="@layout/fragment_catolog" >
 
     </fragment>
     <fragment
         android:id="@+id/menuFragment"
-        android:name="com.halal.halal_appmwllc.mainfragment.MenuFragment"
+        android:name="com.halal.halal_appmwllc.ui.home.MenuFragment"
         android:label="fragment_menu"
         tools:layout="@layout/fragment_menu" >
         <action
@@ -58,28 +58,28 @@
     </fragment>
     <fragment
         android:id="@+id/e_CodeFragment"
-        android:name="com.halal.halal_appmwllc.mainfragment.E_CodeFragment"
+        android:name="com.halal.halal_appmwllc.ui.home.E_CodeFragment"
         android:label="fragment_e__code"
         tools:layout="@layout/fragment_e__code" />
 
     <fragment
         android:id="@+id/bagymdatFragment"
-        android:name="com.halal.halal_appmwllc.namaz_fragment.BagymdatFragment"
+        android:name="com.halal.halal_appmwllc.ui.home.BagymdatFragment"
         android:label="fragment_bagymdat"
         tools:layout="@layout/fragment_bagymdat" />
     <fragment
         android:id="@+id/voyti_email_Fragment"
-        android:name="com.halal.halal_appmwllc.Lishny.Voyti_email_Fragment"
+        android:name="com.halal.halal_appmwllc.ui.menu.Voyti_email_Fragment"
         android:label="fragment_voyti_email_"
         tools:layout="@layout/fragment_voyti_email_" />
     <fragment
         android:id="@+id/voyti_Fragment"
-        android:name="com.halal.halal_appmwllc.Lishny.Voyti_Fragment"
+        android:name="com.halal.halal_appmwllc.ui.menu.Voyti_Fragment"
         android:label="fragment_voyti_"
         tools:layout="@layout/fragment_voyti_" />
     <fragment
         android:id="@+id/lishnye_Kabinet_Fragment"
-        android:name="com.halal.halal_appmwllc.Lishny.Lishnye_Kabinet_Fragment"
+        android:name="com.halal.halal_appmwllc.ui.menu.Lishnye_Kabinet_Fragment"
         android:label="fragment_lishnye__kabinet_"
         tools:layout="@layout/fragment_lishnye__kabinet_" >
 
@@ -89,16 +89,19 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment2"
-        android:name="com.halal.halal_appmwllc.settings.SettingsFragment"
+        android:name="com.halal.halal_appmwllc.ui.menu.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" >
         <action
             android:id="@+id/action_settingsFragment2_to_menuFragment"
             app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_settingsFragment2_to_themeFragment"
+            app:destination="@id/themeFragment" />
     </fragment>
     <fragment
         android:id="@+id/izbrannyFragment"
-        android:name="com.halal.halal_appmwllc.izbranny.IzbrannyFragment"
+        android:name="com.halal.halal_appmwllc.ui.home.IzbrannyFragment"
         android:label="fragment_izbranny"
         tools:layout="@layout/fragment_izbranny" >
         <action
@@ -107,7 +110,7 @@
     </fragment>
     <fragment
         android:id="@+id/questions_i_answersFragment"
-        android:name="com.halal.halal_appmwllc.questions_i_answers.Questions_i_answersFragment"
+        android:name="com.halal.halal_appmwllc.ui.menu.Questions_i_answersFragment"
         android:label="fragment_questions_i_answers"
         tools:layout="@layout/fragment_questions_i_answers" >
         <action
@@ -116,7 +119,7 @@
     </fragment>
     <fragment
         android:id="@+id/ob_organe_po_sertification_Fragment"
-        android:name="com.halal.halal_appmwllc.ob_organe_po_serticition_halal.Ob_organe_po_sertification_Fragment"
+        android:name="com.halal.halal_appmwllc.ui.home.Ob_organe_po_sertification_Fragment"
         android:label="fragment_ob_organe_po_sertification_"
         tools:layout="@layout/fragment_ob_organe_po_sertification_" >
         <action
@@ -125,7 +128,7 @@
     </fragment>
     <fragment
         android:id="@+id/sobytie_Fragment"
-        android:name="com.halal.halal_appmwllc.sobytie.Sobytie_Fragment"
+        android:name="com.halal.halal_appmwllc.ui.menu.Sobytie_Fragment"
         android:label="fragment_sobytie_"
         tools:layout="@layout/fragment_sobytie_" >
         <action
@@ -134,7 +137,7 @@
     </fragment>
     <fragment
         android:id="@+id/o_prilojenie_Fragment"
-        android:name="com.halal.halal_appmwllc.o_prilojenie.O_prilojenie_Fragment"
+        android:name="com.halal.halal_appmwllc.ui.menu.O_prilojenie_Fragment"
         android:label="fragment_o_prilojenie_"
         tools:layout="@layout/fragment_o_prilojenie_" >
         <action
@@ -143,12 +146,20 @@
     </fragment>
     <fragment
         android:id="@+id/sertification_halal_Fragment"
-        android:name="com.halal.halal_appmwllc.serticication_halal.Sertification_halal_Fragment"
+        android:name="com.halal.halal_appmwllc.ui.menu.Sertification_halal_Fragment"
         android:label="fragment_sertification_halal_"
         tools:layout="@layout/fragment_sertification_halal_" >
         <action
             android:id="@+id/action_sertification_halal_Fragment_to_menuFragment"
             app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/themeFragment"
+        android:name="com.halal.halal_appmwllc.ui.menu.ThemeFragment"
+        android:label="ThemeFragment" >
+        <action
+            android:id="@+id/action_themeFragment_to_settingsFragment2"
+            app:destination="@id/settingsFragment2" />
     </fragment>
 
 

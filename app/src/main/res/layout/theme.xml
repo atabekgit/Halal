@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:layout_gravity="center"
+    android:background="@drawable/themeshape">
+
+
+        <TextView
+            android:id="@+id/tem_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="115dp"
+            android:fontFamily="@font/ttv"
+            android:text="@string/vybrat_theme"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <RadioGroup
+            android:id="@+id/Theme_RadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginBottom="57dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tem_tv">
+
+            <RadioButton
+                android:id="@+id/rb_Light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ttv"
+                android:text="@string/svetlaya_tx"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <RadioButton
+                android:id="@+id/rb_Dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ttv"
+                android:text="@string/temnay"
+
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+
+        </RadioGroup>
+
+        <TextView
+
+            android:id="@+id/btn_theme_otmena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="154dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/ttv"
+            android:padding="5dp"
+            android:text="@string/theme_otmena_btn"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tem_tv" />
+
+        <TextView
+            android:id="@+id/btn_theme_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="207dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/ttv"
+            android:padding="5dp"
+            android:text="@string/theme_ok_btn"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_theme_otmena"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

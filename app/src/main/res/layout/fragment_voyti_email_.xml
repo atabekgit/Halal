@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0A8791"
-    tools:context=".Lishny.Voyti_email_Fragment">
+    tools:context=".ui.menu.Voyti_email_Fragment">
 
 
     <LinearLayout

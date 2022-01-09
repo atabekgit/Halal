@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/startphoto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".start_fragment.ChooseFragment">
+    tools:context=".ui.start.ChooseFragment">
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"

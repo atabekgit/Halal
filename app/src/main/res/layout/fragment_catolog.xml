@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mainfragment.CatologFragment">
+    tools:context=".ui.home.CatologFragment">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/main_toolnar"
@@ -173,6 +173,7 @@
         android:elevation="5dp"
         android:hint="Поиск"
         android:paddingStart="10sp"
+        android:alpha="0.2"
         android:soundEffectsEnabled="true"
         android:textIsSelectable="false"
         android:textSize="20dp"

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/chooseFragment"
-        android:name="com.halal.halal_appmwllc.start_fragment.ChooseFragment"
+        android:name="com.halal.halal_appmwllc.ui.start.ChooseFragment"
         android:label="fragment_choose"
         tools:layout="@layout/fragment_choose" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/languageFragment"
-        android:name="com.halal.halal_appmwllc.start_fragment.LanguageFragment"
+        android:name="com.halal.halal_appmwllc.ui.start.LanguageFragment"
         android:label="fragment_language"
         tools:layout="@layout/fragment_language" >
         <action
@@ -34,7 +34,7 @@
     </fragment>
     <fragment
         android:id="@+id/countryFragment"
-        android:name="com.halal.halal_appmwllc.start_fragment.CountryFragment"
+        android:name="com.halal.halal_appmwllc.ui.start.CountryFragment"
         android:label="fragment_country"
         tools:layout="@layout/fragment_country" >
         <action

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/startphoto"
-    tools:context=".o_prilojenie.O_prilojenie_Fragment">
+    tools:context=".ui.menu.O_prilojenie_Fragment">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/main_toolnar"

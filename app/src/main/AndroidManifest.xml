@@ -11,13 +11,13 @@
         android:theme="@style/Theme.Halal_AppMWLLC">
 
         <activity
-            android:name=".MainActivity.MainActivity"
+            android:name=".ui.main.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".startActivity.ChooseActivity"
+            android:name="com.halal.halal_appmwllc.ui.startActivity.ChooseActivity"
             android:exported="false" />
         <activity
-            android:name=".startActivity.StartActivity"
+            android:name="com.halal.halal_appmwllc.ui.startActivity.StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

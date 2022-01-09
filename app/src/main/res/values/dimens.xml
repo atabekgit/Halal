@@ -11,5 +11,6 @@
     <dimen name="marginTopRecyclerView">50dp</dimen>
     <dimen name="marginBetweenCheckAndText">10dp</dimen>
     <dimen name="textSize">20sp</dimen>
+    <dimen name="padd_back">10dp</dimen>
 
 </resources>
