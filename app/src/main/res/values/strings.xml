@@ -51,7 +51,7 @@
     <string name="catolog_main">Каталог</string>
     <string name="ecode">E коды</string>
     <string name="main_text">Главный</string>
-<string name="text_adres">Введите свой электронный адрес
+    <string name="text_adres">Введите свой электронный адрес
  или номер телефона, и мы отправим
 вам ссылку для восстановления
 доступа к аккаунту.</string>
@@ -62,4 +62,11 @@
     <string name="strana_text">Выберите страна</string>
     <string name="lang_text">Выберите язык</string>
     <string name="theme_setting">Тема</string>
+    <string name="vybrat_theme">Выберите тему</string>
+    <string name="svetlaya_tx">Светлая</string>
+    <string name="theme_otmena_btn">ОТМЕНА</string>
+    <string name="theme_ok_btn">ОК</string>
+    <string name="ok">Ok</string>
+    <string name="otmena">ОТМЕНА</string>
+    <string name="temnay">Тёмная</string>
 </resources>

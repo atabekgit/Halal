@@ -173,6 +173,7 @@
         android:elevation="5dp"
         android:hint="Поиск"
         android:paddingStart="10sp"
+        android:alpha="0.2"
         android:soundEffectsEnabled="true"
         android:textIsSelectable="false"
         android:textSize="20dp"

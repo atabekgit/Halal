@@ -95,6 +95,9 @@
         <action
             android:id="@+id/action_settingsFragment2_to_menuFragment"
             app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_settingsFragment2_to_themeFragment"
+            app:destination="@id/themeFragment" />
     </fragment>
     <fragment
         android:id="@+id/izbrannyFragment"
@@ -149,6 +152,14 @@
         <action
             android:id="@+id/action_sertification_halal_Fragment_to_menuFragment"
             app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/themeFragment"
+        android:name="com.halal.halal_appmwllc.ui.menu.ThemeFragment"
+        android:label="ThemeFragment" >
+        <action
+            android:id="@+id/action_themeFragment_to_settingsFragment2"
+            app:destination="@id/settingsFragment2" />
     </fragment>
 
 
