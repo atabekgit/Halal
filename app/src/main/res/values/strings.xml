@@ -69,4 +69,6 @@
     <string name="ok">Ok</string>
     <string name="otmena">ОТМЕНА</string>
     <string name="temnay">Тёмная</string>
+    <string name="russ">Русский</string>
+    <string name="kyr">Кыргызча</string>
 </resources>
