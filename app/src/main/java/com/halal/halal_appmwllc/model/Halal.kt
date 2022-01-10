@@ -23,15 +23,15 @@ data class Category(val id:Int, val title_ky:String,val title_ru:String)
 // model for Banner
 data class Banner(val id:Int,val banner:String,val creation_date:String,val update_date:String)
 
-data class Question(var id:Int,val author:String,val question:String,val answer:String? = null)
+data class Question(var id:Int = 0,val author:String,val question:String,val answer:String = "")
 
 //model for Application
 data class Application(var id:Int,val company_name :String,val address:String
 ,val product_type:String,val name:String,val phone:String)
 
 //model for User
-data class User(var id:Int ,val username:String,val email:String
-,val avatar:String,val phone:String,val gender:String,val creation_date:String,val update_date:String,val favorite_companies:Array<Int>)
+data class User(var id:Int = 0 ,val username:String,val email:String
+,val avatar:String? = "",val phone:String? = "",val gender:String,val creation_date:String? = "",val update_date:String? = "")
 
 //model for TokenObtainPair
 data class TokenObtainPai(val email:String,val password:String)

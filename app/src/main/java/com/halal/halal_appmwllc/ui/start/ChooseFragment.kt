@@ -14,8 +14,11 @@ import androidx.lifecycle.ViewModelProvider
 import com.halal.halal_appmwllc.ui.main.MainActivity
 import com.halal.halal_appmwllc.R
 import com.halal.halal_appmwllc.databinding.FragmentChooseBinding
+import com.halal.halal_appmwllc.model.Question
 import com.halal.halal_appmwllc.ui.startActivity.ChooseActivity
 import com.halal.halal_appmwllc.ui.MainViewModel
+import com.halal.halal_appmwllc.ui.MainViewModelFactory
+import com.halal.repository.Repository
 
 
 class ChooseFragment : Fragment() {
@@ -36,6 +39,7 @@ class ChooseFragment : Fragment() {
             (activity as ChooseActivity).navController.navigate(R.id.action_chooseFragment_to_languageFragment)
         }
         binding.btnNext.setOnClickListener {
+
             val intent = Intent(activity?.application, MainActivity::class.java)
             startActivity(intent)
             (activity as Activity?)!!.overridePendingTransition(0, 0)
