@@ -6,14 +6,12 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.halal.halal_appmwllc.R
+import retrofit2.Call
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-
-
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
 
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.fragmentContainerView)
@@ -21,9 +19,6 @@ class MainActivity : AppCompatActivity() {
         if (navController != null) {
             bottomNavigationView.setupWithNavController(navController)
         }
-
     }
-    //abdurahim
-    //atashli
-    //atatats
+
 }
