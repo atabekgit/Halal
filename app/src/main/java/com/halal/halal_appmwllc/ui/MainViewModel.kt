@@ -1,4 +1,4 @@
-package com.halal.repository
+package com.halal.halal_appmwllc.ui
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

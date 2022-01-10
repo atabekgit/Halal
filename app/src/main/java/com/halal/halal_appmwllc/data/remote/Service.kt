@@ -1,6 +1,7 @@
 package com.halal.halal_appmwllc.data.remote
 
 import com.halal.halal_appmwllc.model.Banner
+import com.halal.halal_appmwllc.model.Language
 import com.halal.halal_appmwllc.model.Question
 import retrofit2.Call
 import retrofit2.Response
@@ -19,5 +20,8 @@ interface Service {
 
     @GET("questions/{id}/")
     suspend fun getQuestion(@Path("id")id:Int):Response<Question>
+
+    @GET("companies/category/all/")
+    suspend fun getAllCategory():Response<Language>
 
 }

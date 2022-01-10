@@ -15,7 +15,7 @@ import com.halal.halal_appmwllc.ui.main.MainActivity
 import com.halal.halal_appmwllc.R
 import com.halal.halal_appmwllc.databinding.FragmentChooseBinding
 import com.halal.halal_appmwllc.ui.startActivity.ChooseActivity
-import com.halal.repository.MainViewModel
+import com.halal.halal_appmwllc.ui.MainViewModel
 
 
 class ChooseFragment : Fragment() {

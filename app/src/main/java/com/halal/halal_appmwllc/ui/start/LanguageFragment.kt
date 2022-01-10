@@ -30,11 +30,6 @@ class LanguageFragment : Fragment() {
         binding = FragmentLanguageBinding.inflate(layoutInflater)
         binding.recyclerViewLanguage.adapter = adapter
         binding.recyclerViewLanguage.layoutManager = LinearLayoutManager(activity)
-        list = ArrayList()
-        list = list + Language("Кыргызча")
-        list = list + Language("Русский")
-        list = list + Language("English")
-        list = list + Language("Арабский язык")
         adapter.setListOfLanguage(list)
 
 
