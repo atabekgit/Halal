@@ -20,10 +20,6 @@ import com.halal.halal_appmwllc.ui.MainViewModel
 
 class ChooseFragment : Fragment() {
 
-    private lateinit var mainViewModel: MainViewModel
-
-
-
     private lateinit var binding: FragmentChooseBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,13 +29,6 @@ class ChooseFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentChooseBinding.inflate(layoutInflater)
-
-
-        mainViewModel = ViewModelProvider(this)[MainViewModel::class.java]
-
-        GetAllQuestion()
-
-
         binding.btnCountry.setOnClickListener {
             (activity as ChooseActivity).navController.navigate(R.id.action_chooseFragment_to_countryFragment)
         }
@@ -53,17 +42,5 @@ class ChooseFragment : Fragment() {
 
         }
         return binding.root
-    }
-     fun GetAllQuestion() {
-        mainViewModel.questionList.observe(requireActivity(), Observer {
-            if (it.isSuccessful && it.body() != null) {
-                val a:Int = 3
-                if (a<it.body()!!.size) {
-                    Log.d("TAG", "GetAllQuestion: " + it.body()!![a].author)
-                }else{
-                    Toast.makeText(requireActivity(),"Error",Toast.LENGTH_SHORT).show()
-                }
-
-            }})
     }
 }
