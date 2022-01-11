@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Меню"
+            android:text="@string/menu"
             android:textColor="@color/white"
             android:textSize="20sp"
             tools:ignore="HardcodedText" />
@@ -217,7 +217,7 @@
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:textColor="#0A8791"
-            android:text="Вопросы и ответы"
+            android:text="@string/vopros_otvet"
             android:fontFamily="@font/ttv"
             android:layout_marginStart="69dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -260,7 +260,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Об органе по сертификации халяль"
+            android:text="@string/sertifcat_halal_menu"
             android:textColor="#0A8791"
             android:textStyle="normal"
             android:textSize="15dp"
@@ -268,7 +268,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginStart="60dp"/>
+            android:layout_marginStart="69dp"/>
 
         <ImageView
             android:id="@+id/ob_organe_certification_id"
@@ -307,7 +307,7 @@
             android:id="@+id/o_prilojenii"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="О приложении"
+            android:text="@string/o_app"
             android:textColor="#0A8791"
             android:fontFamily="@font/ttv"
             android:textSize="15dp"
@@ -353,7 +353,7 @@
             android:layout_height="wrap_content"
             android:textSize="17dp"
             android:fontFamily="@font/ttv"
-            android:text="Поделиться в..."
+            android:text="@string/share"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -400,7 +400,7 @@
             android:textSize="17dp"
             android:fontFamily="@font/ttv"
             android:textColor="#0A8791"
-            android:text="Настройки"
+            android:text="@string/settings"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"

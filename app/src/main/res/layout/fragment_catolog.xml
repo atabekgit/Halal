@@ -153,13 +153,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
-        android:layout_marginEnd="238dp"
         android:layout_marginBottom="5dp"
         android:text="@string/search"
         android:textSize="14dp"
         app:layout_constraintBottom_toTopOf="@+id/ed_Iskat"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ed_Iskat"
         app:layout_constraintTop_toTopOf="@+id/line_btn" />
 
     <EditText
@@ -171,9 +169,8 @@
         android:drawableStart="@drawable/naiti_icon"
         android:drawablePadding="10dp"
         android:elevation="5dp"
-        android:hint="Поиск"
+        android:hint="@string/serch"
         android:paddingStart="10sp"
-        android:alpha="0.2"
         android:soundEffectsEnabled="true"
         android:textIsSelectable="false"
         android:textSize="20dp"
