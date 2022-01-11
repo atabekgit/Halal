@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Halal_AppMWLLC</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name" translatable="false">Halal_AppMWLLC</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="text_next">Далее</string>
     <string name="text_language">Язык</string>
     <string name="text_country">Страна</string>
@@ -19,7 +19,7 @@
 </string>
     <string name="beshim">Бешим</string>
     <string name="ocklock">13:02</string>
-    <string name="search">Бул жерден издеңиз
+    <string name="search">Поищи здесь
 </string>
     <string name="E_scanner">E кодды</string>
     <string name="Izbrannoy">Избранное</string>
@@ -69,6 +69,18 @@
     <string name="ok">Ok</string>
     <string name="otmena">ОТМЕНА</string>
     <string name="temnay">Тёмная</string>
-    <string name="russ">Русский</string>
-    <string name="kyr">Кыргызча</string>
+    <string name="russ" translatable="false">Русский</string>
+    <string name="kyr" translatable="false">Кыргызча</string>
+    <string name="time_namaz">Время намаз</string>
+    <string name="bagymdat">Фаджр</string>
+    <string name="voshod">Восход</string>
+    <string name="zuhr">Зухр</string>
+    <string name="asr">Аср</string>
+    <string name="magrib">Магриб</string>
+    <string name="isha">Иша</string>
+    <string name="tahadjud">Тахажжуд</string>
+    <string name="menu">Меню</string>
+    <string name="vopros_otvet">Вопросы и ответы</string>
+    <string name="share">Поделиться в...</string>
+    <string name="serch">Поиск</string>
 </resources>
